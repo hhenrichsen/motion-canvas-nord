@@ -13,12 +13,17 @@ import { Nord } from '@hhenrichsen/motion-canvas-nord';
 
 export default makeScene2D(function* (view) {
     const code = createRef<CodeBlock>();
-    view.add(<CodeBlock ref={code} theme={Nord.Theme} language={'python'} scale={0.3} code={`
+    view.add(<CodeBlock 
+        ref={code} 
+        theme={Nord.Theme} 
+        language={'python'} 
+        code={`
 def print_hello():
     print("Hello")
 
 if __name__ == "__main__":
-    print_hello()
-    `}/>);
+    print_hello()`
+        }
+    />);
 });
 ```

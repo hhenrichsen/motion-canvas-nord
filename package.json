@@ -7,7 +7,8 @@
     "eslint": "eslint \"**/*.ts?(x)\"",
     "eslint:fix": "eslint --fix \"**/*.ts?(x)\"",
     "prettier": "prettier --check .",
-    "prettier:fix": "prettier --write ."
+    "prettier:fix": "prettier --write .",
+    "lint": "npm run eslint && npm run prettier"
   },
   "unpkg": "lib/bundle.js",
   "main": "lib/index.js",

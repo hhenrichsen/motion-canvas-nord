@@ -6,9 +6,9 @@ use for [Motion Canvas](https://motion-canvas.github.io).
 ## Usage
 
 ```tsx
-import {makeScene2D} from '@motion-canvas/2d/lib/scenes';
+import {makeScene2D} from '@motion-canvas/2d';
 import {CodeBlock} from '@motion-canvas/2d/lib/components/CodeBlock';
-import {createRef} from '@motion-canvas/core/lib/utils';
+import {createRef} from '@motion-canvas/core';
 import {Nord} from '@hhenrichsen/motion-canvas-nord';
 
 export default makeScene2D(function* (view) {

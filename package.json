@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/hhenrichsen/motion-canvas-nord#readme",
   "peerDependencies": {
-    "@motion-canvas/core": "^3.3.4",
+    "@motion-canvas/core": "^3.9.0",
     "code-fns": "^0.8.2"
   },
   "devDependencies": {
@@ -47,9 +47,9 @@
     "*.{js,jsx,ts,tsx,md,scss}": "prettier --write"
   },
   "dependencies": {
-    "@motion-canvas/2d": "^3.3.4",
-    "@motion-canvas/ui": "^3.3.4",
-    "@motion-canvas/vite-plugin": "^3.3.0",
-    "vite": "^4.2.1"
+    "@motion-canvas/2d": "^3.9.0",
+    "@motion-canvas/ui": "^3.9.0",
+    "@motion-canvas/vite-plugin": "^3.9.0",
+    "vite": "^4.3.9"
   }
 }

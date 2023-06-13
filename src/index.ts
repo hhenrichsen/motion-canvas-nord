@@ -1,1 +1,1 @@
-export * from "./Nord";
+export * from './Nord';
